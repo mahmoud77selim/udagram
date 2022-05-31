@@ -1,0 +1,12 @@
+udagram-api/node_modules
+udagram-api/Archive.zip
+udagram-api/www
+udagram-api/yarn.lock
+udagram-api/yarn-error.log
+
+udagram-frontend/node_modules
+udagram-frontend/www
+udagram-frontend/yarn.lock
+udagram-frontend/yarn-error.log
+
+.env

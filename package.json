@@ -1,0 +1,25 @@
+{
+    "scripts": {
+
+        "backend:install" : "cd udagram-api && yarn",
+        "frontend:install": "cd udagram-frontend && yarn ",
+
+        "backend:build"   : "cd udagram-api && yarn build",
+        "frontend:build"  : "cd udagram-frontend && yarn build",
+
+        "backend:deploy"  : "cd udagram-api && yarn deploy",
+        "frontend:deploy" : "cd udagram-frontend && yarn deploy",
+
+        "backend:test"    : "cd udagram-api && yarn test",
+        "frontend:test"   : "cd udagram-frontend && yarn test",
+        "frontend:e2e"    : "cd udagram-frontend && yarn e2e",
+        "frontend:test1"  : "cd udagram-frontend && yarn test",
+
+        "backend:run"     : "cd udagram-api && yarn start",
+        "frontend:run"    : "cd udagram-frontend && yarn start",
+
+        "backend:setenv"  : "cd udagram-api && yarn setenv"
+
+    },
+    "devDependencies": {}
+}
